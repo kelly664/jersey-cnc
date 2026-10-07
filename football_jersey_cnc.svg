@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="28in" height="30in" viewBox="0 0 28 30" version="1.1" data-units="in" data-clearance-total-in="0.015" data-guide-inset-in="0.03">
+  <title>STEILNER 66 wooden football jersey — 28 x 30 inches</title>
+  <desc>Clean reconstructed back-view jersey manufacturing geometry. One SVG user unit equals one inch. No raster, font, plank lines, wood grain, background, lighting, or photo texture. All layers share the same assembled-position coordinates; overlapping nested contours across manufacturing layers are intentional. Select only the intended layer for each operation. Pocket depth is 0.25 inch. SVG does not encode executable toolpaths or feed/speed settings.</desc>
+  <metadata>{"finished_size": [28, 30], "generator": "generate_football_jersey.py", "guide_inset_per_edge": 0.03, "insert_clearance_total": 0.015, "insert_inset_per_edge": 0.0075, "laser_cut_pieces": "assembled coordinates; nest copies for cutting", "pocket_depth": 0.25, "shoulder_pocket_corner_radius": 0.125, "stripe_pocket_corner_radius": 0.065, "units": "inches", "v_bit_angle_degrees": 90}</metadata>
+  <g id="PROFILE_CUT" inkscape:groupmode="layer" inkscape:label="PROFILE_CUT" fill="none" stroke="#111111" stroke-width="0.012" stroke-linejoin="round" stroke-linecap="round">
+    <desc>Outside profile: compensate to the outside of this exact contour.</desc>
+    <path id="jersey_outside_profile" d="M 14 0.9 C 12 0.9 10.5 0.45 9 0 L 2.6 2.2 Q 1.35 2.8 1.05 4 L 0 12.2 Q 0 12.45 0.25 12.55 L 3.6 13.9 Q 3.9 14 4.2 13.3 L 4.6 12.2 L 4.8 28.6 Q 4.8 28.9 5.15 29.05 C 7.3 29.65 10.7 30 14 30 C 17.3 30 20.7 29.65 22.85 29.05 Q 23.2 28.9 23.2 28.6 L 23.4 12.2 L 23.8 13.3 Q 24.1 14 24.4 13.9 L 27.75 12.55 Q 28 12.45 28 12.2 L 26.95 4 Q 26.65 2.8 25.4 2.2 L 19 0 C 17.5 0.45 16 0.9 14 0.9 Z" fill-rule="evenodd" data-operation="outside-profile" />
+  </g>
+  <g id="V_CARVE_LINES" inkscape:groupmode="layer" inkscape:label="V_CARVE_LINES" fill="none" stroke="#d33b35" stroke-width="0.012" stroke-linejoin="round" stroke-linecap="round">
+    <desc>Faux seams: 90-degree V-bit centerline engraving. 9 open paths and 1 closed border. Set depth/width in CAM.</desc>
+    <path id="collar_seam" d="M 9.15 0.48 C 10.65 1.45 12.1 1.95 14 1.95 C 15.9 1.95 17.35 1.45 18.85 0.48" fill-rule="evenodd" />
+    <path id="nameplate_border" d="M 5.35 4.30 L 22.65 4.30 L 23.15 8.75 Q 23.18 9.05 22.90 9.05 L 5.10 9.05 Q 4.82 9.05 4.85 8.75 Z" fill-rule="evenodd" />
+    <path id="upper_yoke_left" d="M 3.62 4.30 L 5.35 4.30" fill-rule="evenodd" />
+    <path id="upper_yoke_right" d="M 24.38,4.3 L 22.65,4.3" fill-rule="evenodd" />
+    <path id="sleeve_cuff_left" d="M 0.17 10.95 Q 1.85 11.70 4.04 12.85" fill-rule="evenodd" />
+    <path id="sleeve_cuff_right" d="M 27.83,10.95 Q 26.15,11.7 23.96,12.85" fill-rule="evenodd" />
+    <path id="shoulder_to_sleeve_left" d="M 2.92 2.52 L 3.62 4.30 L 4.93 7.72 L 4.80 8.30 Q 4.75 10.1 4.60 12.20" fill-rule="evenodd" />
+    <path id="shoulder_to_sleeve_right" d="M 25.08,2.52 L 24.38,4.3 L 23.07,7.72 L 23.2,8.3 Q 23.25,10.1 23.4,12.2" fill-rule="evenodd" />
+    <path id="side_body_panel_left" d="M 5.55 9.05 Q 5.74 10.5 5.76 12.10 L 5.94 28.98" fill-rule="evenodd" />
+    <path id="side_body_panel_right" d="M 22.45,9.05 Q 22.259999999999998,10.5 22.240000000000002,12.1 L 22.06,28.98" fill-rule="evenodd" />
+  </g>
+  <g id="POCKETS" inkscape:groupmode="layer" inkscape:label="POCKETS" fill="none" stroke="#c77700" stroke-width="0.012" stroke-linejoin="round" stroke-linecap="round">
+    <desc>Pocket to 0.25 inch depth. Exact nominal pocket boundary; compensate inside in CAM. Shoulder corner radius 0.125 inch; stripe radius 0.065 inch.</desc>
+    <path id="left_shoulder_pocket" d="M 2.4119889 2.7750982 A 0.125 0.125 0 0 1 2.6225016 2.8145405 L 4.7465648 8.5139498 A 0.125 0.125 0 0 1 4.7508394 8.5873658 L 4.4656089 9.7508059 A 0.125 0.125 0 0 1 4.2305198 9.7730121 L 1.5338987 3.8741535 A 0.125 0.125 0 0 1 1.5542005 3.7390889 Z" fill-rule="evenodd" data-depth-in="0.25" data-matching-insert="left_shoulder_insert" />
+    <path id="right_shoulder_pocket" d="M 25.5880111,2.7750982 A 0.125,0.125 -0.0 0,0 25.3774984,2.8145405 L 23.2534352,8.5139498 A 0.125,0.125 -0.0 0,0 23.2491606,8.5873658 L 23.5343911,9.7508059 A 0.125,0.125 -0.0 0,0 23.7694802,9.7730121 L 26.4661013,3.8741535 A 0.125,0.125 -0.0 0,0 26.4457995,3.7390889 Z" fill-rule="evenodd" data-depth-in="0.25" data-matching-insert="right_shoulder_insert" />
+    <path id="left_side_stripe_pocket" d="M 4.9221827 11.4024124 A 0.065 0.065 0 0 1 5.0460387 11.3797505 L 5.2341508 11.7873267 A 0.065 0.065 0 0 1 5.2401306 11.8139574 L 5.3992247 28.8171409 A 0.065 0.065 0 0 1 5.31934 28.8810212 L 5.1095639 28.8316621 A 0.065 0.065 0 0 1 5.0594551 28.7690855 L 4.8800282 12.0026394 A 0.065 0.065 0 0 1 4.8801859 11.997367 Z" fill-rule="evenodd" data-depth-in="0.25" data-matching-insert="left_side_stripe_insert" />
+    <path id="right_side_stripe_pocket" d="M 23.0778173,11.4024124 A 0.065,0.065 -0.0 0,0 22.9539613,11.3797505 L 22.765849199999998,11.7873267 A 0.065,0.065 -0.0 0,0 22.7598694,11.8139574 L 22.6007753,28.8171409 A 0.065,0.065 -0.0 0,0 22.68066,28.8810212 L 22.8904361,28.8316621 A 0.065,0.065 -0.0 0,0 22.9405449,28.7690855 L 23.119971800000002,12.0026394 A 0.065,0.065 -0.0 0,0 23.1198141,11.997367 Z" fill-rule="evenodd" data-depth-in="0.25" data-matching-insert="right_side_stripe_insert" />
+  </g>
+</svg>
